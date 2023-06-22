@@ -1,43 +1,65 @@
 body{
-    font-family: helvetica;
-    background-color: black;
-    color: seashell;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
-  }
-  
-  /* Nav */
-  
-  header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-    height: 69px;
-    width: 100%;
-    border-bottom: 1px solid seashell;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  header img{
-    height: 50px;
-  }
-  
-  header ul{
-    padding: 0 2%;
-  }
-    
-  header il{
-    display: inline-block;
-  }
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
 
-  header a{
-    color: seashell;
-  }
+/* Header */
+header{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.logo img{
+  height: 50px;
+  margin: 15px;
+}
+
+ul{
+  margin: 10px;
+  justify-content: space-around;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+a{
+  color: seashell;
+}
+
+/* Mission Section */
+
+.background{
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*s7c4yx*_ga*MTg0MzgwMzYxLjE2ODcyNTc1Mzc.*_ga_3LRZM6TM9L*MTY4NzQ1MzQzMy4zLjEuMTY4NzQ1NjkzMy42MC4wLjA.);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statement{
+  background-color: black;
+  width: 100%;
+}
