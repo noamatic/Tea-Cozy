@@ -62,4 +62,14 @@ a{
 .statement{
   background-color: black;
   width: 100%;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  margin: 0 px;
+  display: block;
+  vertical-align: bottom;
+  }
+
+.statement h2{
+  margin: 10px;
 }
